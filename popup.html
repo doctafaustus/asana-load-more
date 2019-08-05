@@ -1,0 +1,32 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Recipe Saver Extension</title>
+    <style>
+      body {
+        font-family: 'Raleway', sans-serif;
+        width: 120px;
+      }
+      label {
+        display: block;
+      }
+    </style>
+    <!-- JavaScript and HTML must be in separate files -->
+	<meta charset='utf-8'>
+  </head>
+	<body>
+    <div id="wrapper">
+      <form>
+        <label>Hide Today, Upcoming and Later tasks?</label>
+        <br>
+        <input id="Yes" type="radio" name="hide-tasks" value="Yes">Yes<br>
+        <input id="No" type="radio" name="hide-tasks" value="No" checked>No<br>
+      </form>
+    </div>
+  <script src="popup.js"></script>
+  </body>
+</html>
