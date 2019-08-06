@@ -3,7 +3,7 @@
 
   "name": "Asana Load More",
   "description": "This extension will load all subtasks in Asana.",
-  "version": "0.0.0.2",
+  "version": "0.0.0.3",
 
   "icons": { 
     "16": "icon.png",
